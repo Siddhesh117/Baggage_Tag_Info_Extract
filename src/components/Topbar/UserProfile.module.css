@@ -1,0 +1,23 @@
+.user-profile {
+  cursor: pointer;
+  padding-top: 14px;
+  margin-left: 2rem;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* styles for disabled list item */
+.disabled-li {
+  color: #888; /* or any other color to indicate disabled state */
+  pointer-events: none; /* This prevents click events on the disabled item */
+}
+
+/* media queries with smaller max-width have preference/overrites styles with higher max-width */
+@media only screen and (max-width: 991px) {
+  .username {
+    display: none !important;
+  }
+}

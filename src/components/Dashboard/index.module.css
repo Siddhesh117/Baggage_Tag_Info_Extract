@@ -1,0 +1,16 @@
+.dashboard-container {
+  margin: 0 0 1rem 0;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* filter/title section */
+.dashboard-title {
+  color: #545454;
+  font-weight: 500;
+  font-size: 16px;
+}
